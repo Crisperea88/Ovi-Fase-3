@@ -1,149 +1,138 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-nav a{
-      text-decoration:none;
-      color:white;
-      
+nav a {
+    text-decoration: none;
+    color: white;
 }
-  
-      
 
-nav li{
-      display:inline-block;
-      width:263px;
-      height:30px;
-      padding:4px 1px ;
-      background-color:blue;
-      border:2px solid orange;
-      text-align:center;
-      color:#fff;
-      position:relative;
-     
+
+
+nav li {
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    padding: 4px 1px;
+    background-color: rgb(175, 49, 49);
+    border: 2px solid rgb(34, 34, 32);
+    text-align: center;
+    color: #fff;
+    position: relative;
 }
-     
 
 
-nav li:hover{
-      background-color:orangered;
-      }
-            
-nav li>ul{
-      display:none;
-      }
 
-nav li:hover>ul{
-      display:block;
-      position:absolute;
-      top:40px;
-     
-     
+nav li:hover {
+    background-color: rgb(39, 37, 37);
+}
 
+nav li>ul {
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 40px;
 }
 
 
 
 
-body{
-
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-left:5em;
+    margin-right: 5em;
 }
 
-footer{
-   
-    background: #F47920;
+footer {
+    background: #cc4545;
     text-align: center;
     font-style: italic;
+    padding-top: 0em;
+    padding-left:4em ;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    height: 5em;
+    
 
 }
 
 
-h1{
-    color: black;
+h1 {
+    color: rgb(69, 29, 212);
     text-align: center;
 }
 
-h2{
-      background: #F47920;
-    color: white;
+h2 {
+    background:#6d1f36c4;
+    color: rgb(236, 227, 227);
     text-align: center;
+    padding-top: 2em;
+    height: 2em;
 }
 
-td{
-
-    text-shadow: #fcce00 20px 0 10px;
+td {
+    text-shadow: #493d0e 20px 0 10px;
     text-align: center;
     background: #fdfdff;
     padding: 2em;
-    
 }
 
-button{
-    
-    
+button {
     background-color: black;
     border-radius: 1.5em;
     padding: 0.5em;
     color: white;
     font-size: 1em;
-
 }
 
-Button:hover{
-    background-color:orangered;
-    }
-
-
-
-ul{
-    background:whitesmoke;
+Button:hover {
+    background-color: rgb(180, 96, 66);
 }
 
-.titulo{
-        margin-top: 10Px;
-        font-size: 50px;
-        text-align: center;
-        color: black;
-        }
 
-.Datos{    
-background-color:#DFDFDF;
-border-style: outset;
-max-width:20em;
-max-height: 200em;
 
+ul {
+    background: rgb(253, 251, 251);
 }
 
-.Fotos{
-        
-        text-align: center;
+.titulo {
+    margin-top: 10Px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(71, 50, 50);
+}
 
+.Datos {
+    background-color: #DFDFDF;
+    border-style: outset;
+    max-width: 20em;
+    max-height: 200em;
+}
+
+.Fotos {
+    text-align: center;
 }
 
 
 
 
-.Twitter{
-border-top-color:blue;
-border-right-color: red;
-border-bottom-color: green;
-border-left-color: gold;
-border-style: solid;
-border-width: 1em;
-padding: 0em;
-width: 36em;
-
+.Twitter {
+    border-top-color: rgb(102, 102, 151);
+    border-right-color: rgb(168, 70, 70);
+    border-bottom-color: rgb(62, 172, 62);
+    border-left-color: rgb(146, 135, 71);
+    border-style: solid;
+    border-width: 1em;
+    padding: 0em;
+    width: 36em;
 }
 
-.Parrafo{
-
+.Parrafo {
     width: auto;
-    padding: 2em;
-    margin: 0 auto;
+    padding: 14em;
+    margin: 1em;
 }
-
-
